@@ -1,0 +1,56 @@
+.form-container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input {
+  width: 300px;
+  height: 50px;
+  border:1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.btn{
+  padding:0px 20px;
+  height: 50px;
+  box-sizing: border-box;
+  border:none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.add{
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+}
+
+.delete{
+  background-color: red;
+  color: white;
+}
+.finish{
+  background-color: blueviolet;
+  color: white;
+}
+
+.area{
+  width: 800px;
+  font-size: 18px;
+  margin : 20px auto;
+  border-collapse: collapse;
+}
+.content{
+  width: 400px;
+}
+.area td,.area th{
+  border:1px solid black;
+  padding:10px;
+ }
+ .done{
+  text-decoration: line-through red 2px;
+ }
